@@ -1,3 +1,10 @@
+; Input: n = 5 (odd number)
+; Output:
+; *
+; ***
+; *****
+; ***
+; *
 TITLE Q5 (Q5.asm)
 INCLUDE Irvine32.inc
 
@@ -44,4 +51,5 @@ done:
     exit
 
 main ENDP
+
 END main
