@@ -1,3 +1,6 @@
+; Write a program which contains a procedure named TakeInput which takes input numbers from user
+; and call a procedure named GCD which calculates their GCD and display the answer
+; by calling another function Display (Also show ESP values during nested function calls)
 TITLE Q2 (Q2.asm)
 INCLUDE Irvine32.inc
 .data
@@ -65,4 +68,5 @@ main PROC
     add esp, 8
     exit
 main ENDP
+
 END main
