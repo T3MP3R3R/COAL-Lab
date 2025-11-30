@@ -1,3 +1,9 @@
+; Write a procedure named IsPrime that sets the Zero flag if the 32-bit integer passed in the EAX register is prime
+; Optimize the program’s loop to run as efficiently as possible. 
+; Write a test program that prompts the user for an integer, calls IsPrime, and displays a message indicating whether or not the value is prime
+; Continue prompting the user for integers and calling IsPrime until the user enters 1
+; When calling WriteScaled, pass the number’s offset in EDX, the number length in ECX, and the decimal offset in EBX. 
+; Write a test program that displays three numbers of different sizes.
 TITLE Q7 (Q7.asm)
 INCLUDE Irvine32.inc
 
@@ -55,4 +61,5 @@ quit:
     call Crlf
     exit
 main ENDP
+
 END main
