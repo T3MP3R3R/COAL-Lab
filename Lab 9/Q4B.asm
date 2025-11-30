@@ -1,3 +1,5 @@
+; Write a series of instructions that shift the lowest bit of AX into the highest bit of BX
+; using the SHRD instruction.
 TITLE Q4 With SHRD (Q4.asm)
 INCLUDE Irvine32.inc
 
@@ -18,4 +20,5 @@ main PROC
 
     exit
 main ENDP
+
 END main
