@@ -1,3 +1,5 @@
+; Write a program which contains a procedure named MinMaxArray that displays the minimum & maximum values in an array
+; Pass a size-20 array by reference to this procedure
 TITLE Q3 (Q3.asm)
 INCLUDE Irvine32.inc
 .data
@@ -61,4 +63,5 @@ main PROC
     add esp, 8
     exit
 main ENDP
+
 END main
