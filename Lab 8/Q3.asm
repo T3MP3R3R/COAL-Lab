@@ -1,3 +1,9 @@
+; Requirements:
+; Procedure 1: Adds A and B
+; Procedure 2: Multiplies result of P1 with C
+; Procedure 3: Subtracts D from result of P2
+; Main calls procedures in sequence
+; Display each step
 TITLE Q3 (Q3.asm)
 INCLUDE Irvine32.inc
 
@@ -59,4 +65,5 @@ main PROC
 
     exit
 main ENDP
+
 END main
