@@ -1,3 +1,4 @@
+; Write the procedure to get_frequency Find the frequency of characters
 TITLE Q6 (Q6.asm)
 INCLUDE Irvine32.inc
 
@@ -47,4 +48,5 @@ skipDisplay:
     loop displayLoop
     exit
 main ENDP
+
 END main
