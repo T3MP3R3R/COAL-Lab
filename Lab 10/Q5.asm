@@ -1,4 +1,8 @@
-TITLE Q6 (Q6.asm)
+; Write a program that calculates factorial of a given number n
+; Make a recursive procedure named Fact that takes n as an input parameter
+; Write a non-recursive version of the procedure Fact that uses a loop to calculate factorial of given number n
+; Compare efficiency of both versions of the Fact procedure using GetMSeconds
+TITLE Q5 (Q5.asm)
 INCLUDE Irvine32.inc
 .data
     prompt BYTE "Enter n: ",0
