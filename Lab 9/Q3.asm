@@ -1,3 +1,6 @@
+; The time stamp field of a file directory entry uses bits 0 through 4 for the seconds, bits 5 through 10
+; for the minutes, and bits 11 through 15 for the hours. Write instructions that extract the minutes 
+; And copy the value to a byte variable named bMinutes
 TITLE Q3 (Q3.asm)
 INCLUDE Irvine32.inc
 
@@ -17,4 +20,5 @@ main PROC
 
     exit
 main ENDP
+
 END main
