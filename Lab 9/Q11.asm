@@ -1,3 +1,7 @@
+; Write a procedure named WriteScaled that outputs a decimal ASCII number with an implied decimal point
+; Suppose the following number were defined as follows, where DECIMAL_OFFSET
+; indicates that the decimal point must be inserted five positions from the right side of the number
+; WriteScaled would display the number like this: 1001234567.89765
 TITLE Q11 (Q11.asm)
 INCLUDE Irvine32.inc
 
@@ -29,4 +33,5 @@ main PROC
     call Crlf
     exit
 main ENDP
+
 END main
