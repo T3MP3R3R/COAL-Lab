@@ -1,3 +1,4 @@
+; Create a Str_Reverse procedure to reverse strings
 TITLE Q4 (Q4.asm)
 INCLUDE Irvine32.inc
 
@@ -45,4 +46,5 @@ main PROC
     call Crlf
     exit
 main ENDP
+
 END main
