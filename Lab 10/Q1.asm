@@ -1,3 +1,4 @@
+; Write a program which contains a procedure named ThreeProd that displays the product of three numeric parameters passed through a stack
 TITLE Q1 (Q1.asm)
 INCLUDE Irvine32.inc
 
@@ -31,4 +32,5 @@ main PROC
     add esp, 12
     exit
 main ENDP
+
 END main
