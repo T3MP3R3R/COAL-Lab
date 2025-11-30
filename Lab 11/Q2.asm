@@ -1,3 +1,4 @@
+; Modify the procedure to take offset of string1 and the character to be searched as argument
 TITLE Q2 (Q2.asm)
 INCLUDE Irvine32.inc
 
@@ -38,4 +39,5 @@ main PROC
     call Crlf
     exit
 main ENDP
+
 END main
