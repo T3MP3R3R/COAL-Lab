@@ -1,3 +1,4 @@
+; Create a procedure named Scan_String to find the index of the first occurrence of the character '#' in the given string
 TITLE Q1 (Q1.asm)
 INCLUDE Irvine32.inc
 
@@ -37,4 +38,5 @@ main PROC
     call Crlf
     exit
 main ENDP
+
 END main
