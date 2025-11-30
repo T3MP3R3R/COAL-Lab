@@ -1,3 +1,7 @@
+; Write an Assembly program that reads up to 5 numbers from the user. If the
+; user enters 0, the program should stop taking input immediately. Use ECX as a
+; counter and control the loop using LOOPNZ or LOOPNE. After the loop ends, 
+; display how many valid (non-zero) numbers were entered.
 INCLUDE Irvine32.inc
 
 .data
@@ -26,4 +30,5 @@ StopInput:
     call Crlf
     exit
 main ENDP
+
 END main
