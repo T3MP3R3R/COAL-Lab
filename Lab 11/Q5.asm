@@ -1,3 +1,4 @@
+; Create a procedure that Loads an array of integer by multiplying it with Load(offset array, byte no)
 TITLE Q5 (Q5.asm)
 INCLUDE Irvine32.inc
 
@@ -32,4 +33,5 @@ main PROC
     call Crlf
     exit
 main ENDP
+
 END main
