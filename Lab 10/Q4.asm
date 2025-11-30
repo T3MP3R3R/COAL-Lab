@@ -1,3 +1,6 @@
+; Write a program which contains a procedure named LocalSquare
+; The procedure must declare a local variable. Initialize this variable by taking an input value from the user and then display its square
+; Use ENTER & LEAVE instructions to allocate and de-allocate the local variable
 TITLE Q4 (Q4.asm)
 INCLUDE Irvine32.inc
 .data
@@ -32,4 +35,5 @@ main PROC
     add esp,4
     exit
 main ENDP
+
 END main
