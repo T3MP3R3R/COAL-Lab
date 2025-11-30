@@ -1,19 +1,34 @@
+; Write an assembly program that displays three messages
+; But use an unconditional jump (JMP) so that Message 2 is skipped, and only "Message 1" and "Message 3" appear.
+TITLE Q1 (Q1.asm)
 INCLUDE Irvine32.inc
 
 .data
-    num DWORD 5
+    msg1 BYTE "Message 1",0
+    msg2 BYTE "Message 2",0
+    msg3 BYTE "Message 3",0
 
 .code
 main PROC
-    mov ecx, 11
 
-L1:
-    mov eax, num
-    call WriteInt
+    ; Display Message 1
+    mov edx, OFFSET msg1
+    call WriteString
     call Crlf
 
-    inc num
-    loop L1
+    ; Jump over Message 2
+    jmp SkipMsg2
+
+ShowMsg2:
+    mov edx, OFFSET msg2
+    call WriteString
+    call Crlf
+
+SkipMsg2:
+    ; Display Message 3
+    mov edx, OFFSET msg3
+    call WriteString
+    call Crlf
 
     exit
 main ENDP
