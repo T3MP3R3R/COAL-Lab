@@ -1,3 +1,4 @@
+; Write a program which contains a procedure named BubbleSort that sorts an array which is passed through a stack using indirect addressing.
 TITLE Q7 (Q7.asm)
 INCLUDE Irvine32.inc
 .data
