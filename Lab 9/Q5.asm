@@ -1,3 +1,5 @@
+; Implement the following C++ expression in assembly language, using 32-bit signed operands
+; val1 = (val2 / val3) * (val1 / val2);
 TITLE Q6 (Q6.asm)
 INCLUDE Irvine32.inc
 
@@ -29,4 +31,5 @@ main PROC
     call Crlf
     exit
 main ENDP
+
 END main
