@@ -1,3 +1,7 @@
+; Write a program to take 4 input numbers from the users
+; Then make two procedures CheckPrime and LargestPrime
+; The program should first check if a given number is a prime number or not
+; If all of the input numbers are prime numbers then the program should call the procedure LargestPrime
 TITLE Q6 (Q6.asm)
 INCLUDE Irvine32.inc
 .data
@@ -107,5 +111,6 @@ LargestPrime PROC
     pop ebp
     ret
 LargestPrime ENDP
+
 
 END main
