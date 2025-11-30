@@ -1,3 +1,6 @@
+; Write an Assembly program that sets EAX = 10 and repeatedly subtracts 3
+; while the value in EAX remains greater than or equal to zero. Use CMP and JGE
+; to simulate the while loop. After the loop ends, display the final value of EAX.
 TITLE Q5 (Q5.asm)
 INCLUDE Irvine32.inc
 
@@ -19,4 +22,5 @@ Done:
     call Crlf
     exit
 main ENDP
+
 END main
