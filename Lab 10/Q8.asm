@@ -1,3 +1,7 @@
+; Write a program which contains a procedure named TakeInput which takes input numbers from user
+; And call a procedure named Armstrong which checks either a number is an Armstrong number or not
+; And display the answer on console by calling anotherfunction Display
+; Also show ESP values during nested function calls
 TITLE Q8 (Q8.asm)
 INCLUDE Irvine32.inc
 .DATA
@@ -62,5 +66,6 @@ Armstrong PROC
     pop ebp
     ret
 Armstrong ENDP
+
 
 END main
