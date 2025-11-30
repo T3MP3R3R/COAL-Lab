@@ -1,3 +1,4 @@
+; Create IsCompare procedure to compare two strings
 TITLE Q3 (Q3.asm)
 INCLUDE Irvine32.inc
 
@@ -51,4 +52,5 @@ L2:
 L3:
     exit
 main ENDP
+
 END main
