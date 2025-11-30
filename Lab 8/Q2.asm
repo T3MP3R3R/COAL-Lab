@@ -1,3 +1,7 @@
+; Requirements:
+; Push coefficients: [3, 2, -5, 7] onto stack
+; Compute powers: x=4, x2=16, x3=64 using ≥3 nested PUSH/POP per multiplication
+; Multiply & ADD using stack operations ONLY (NO direct registers)
 TITLE Aneurysm of The Century (Q2.asm)
 INCLUDE Irvine32.inc
 
@@ -59,4 +63,5 @@ main PROC
 
     exit
 main ENDP
+
 END main
