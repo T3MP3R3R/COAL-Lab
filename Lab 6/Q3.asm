@@ -1,3 +1,11 @@
+; Write a program that prints the following star pattern using nested loops:
+; *
+; **
+; ***
+; ****
+; *****
+; Outer loop controls the number of rows.
+; Inner loop prints stars (*) in each row using WriteChar.
 INCLUDE Irvine32.inc
 
 .code
@@ -24,4 +32,5 @@ L2:
 
     exit
 main ENDP
+
 END main
