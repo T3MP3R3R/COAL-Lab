@@ -1,3 +1,16 @@
+; Write the following C program and then convert it into Assembly language
+; using CMP and conditional jump instructions (JG, JL, JGE, etc.):
+; #include <stdio.h>
+; int main() {
+; int a, b;
+; printf("Enter two numbers: ");
+; scanf("%d %d", &a, &b);
+; if (a > b && a < 100)
+; printf("Condition True\n");
+; else
+; printf("Condition False\n");
+; return 0;
+; }
 TITLE Q4 (Q4.asm)
 INCLUDE Irvine32.inc
 
@@ -36,4 +49,5 @@ EndIfPart:
     call Crlf
     exit
 main ENDP
+
 END main
