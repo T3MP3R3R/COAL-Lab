@@ -1,3 +1,5 @@
+; Write an Assembly program that takes three numbers from the user and
+; finds the largest number using unsigned comparison (JA, JB, JAE)
 TITLE Q2 Unsigned Comparison (Q2.asm)
 INCLUDE Irvine32.inc
 
@@ -36,4 +38,5 @@ Display:
     call Crlf
     exit
 main ENDP
+
 END main
