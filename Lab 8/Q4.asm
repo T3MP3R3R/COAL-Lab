@@ -1,3 +1,8 @@
+; Requirements:
+; Ask user to enter sentence
+; Split into words and PUSH each word onto stack (programming LAST)
+; POP into new array (I FIRST)
+; Display reversed sentence
 TITLE Q4 (Q4.asm)
 INCLUDE Irvine32.inc
 
@@ -61,4 +66,5 @@ exitProc:
     call Crlf
     exit
 main ENDP
+
 END main
