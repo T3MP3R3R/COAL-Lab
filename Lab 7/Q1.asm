@@ -1,3 +1,7 @@
+; Write an Assembly program that stores three 8-bit values in registers. Use
+; AND, OR, and XOR instructions to clear all odd bits, set all even bits, and then
+; toggle all bits. Finally, use the TEST instruction to check whether bit 0 is set in
+; the final result and display "Bit 0 is ON" or "Bit 0 is OFF" using conditional jumps.
 TITLE Q1 (Q1.asm)
 INCLUDE Irvine32.inc
 
@@ -34,4 +38,5 @@ ExitProg:
     call Crlf
     exit
 main ENDP
+
 END main
